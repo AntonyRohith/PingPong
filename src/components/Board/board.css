@@ -1,0 +1,29 @@
+.board-container {
+  position: relative;
+  width: 100%;
+  height: 90%;
+}
+
+.controller {
+  position: absolute;
+  width: 20px;
+  height: 80px;
+  background: black;
+}
+
+#bot {
+  background: green;
+}
+
+#user {
+  background: green;
+  right: 0;
+}
+
+#ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+}
